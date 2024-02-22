@@ -10,7 +10,8 @@ export default defineConfig({
   },
   base:'./',
   server:{
-    port:4000,
+    port:8000,
+    host:'0.0.0.0',
     open:true,
     cors:true  // 允许跨域
   }
